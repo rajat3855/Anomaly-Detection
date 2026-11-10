@@ -1,9 +1,6 @@
 # 🏭 Industrial Sensor Anomaly Detection System
 
-> Real-time machine failure prediction using sensor data from industrial equipment.
-> Built with Python, scikit-learn, FastAPI, and Streamlit.
 
-**Author:** Rajat Bhati | [LinkedIn](#) | [GitHub](#)
 
 ---
 
@@ -172,10 +169,4 @@ This same pipeline applies directly to:
 - **Predictive maintenance for automotive manufacturing lines**
 - **Quality control in production environments**
 
----
 
-## 📸 Screenshots
-
-| EDA | Dashboard | API Docs |
-|---|---|---|
-| Sensor distributions, correlation heatmaps, failure breakdowns | Live prediction gauge, history timeline, model metrics | Interactive Swagger UI at `/docs` |
