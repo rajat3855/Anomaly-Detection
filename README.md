@@ -1,9 +1,6 @@
 # 🏭 Industrial Sensor Anomaly Detection System
 
 
-
----
-
 ## 📌 Project Overview
 
 This system ingests real-time sensor readings from industrial machinery and predicts whether a failure is imminent — enabling proactive maintenance before costly breakdowns occur.
@@ -23,7 +20,6 @@ It mirrors the kind of Industrial AI systems built at companies like ITHENA, whe
 | Database | SQLite (prediction logging) |
 | Dashboard | Streamlit, Plotly |
 
----
 
 ## 📊 Dataset
 
@@ -33,7 +29,6 @@ It mirrors the kind of Industrial AI systems built at companies like ITHENA, whe
 - 5 failure types: TWF, HDF, PWF, OSF, RNF
 - Class imbalance: ~3.4% failure rate (real-world distribution)
 
----
 
 ## 🗂️ Project Structure
 
