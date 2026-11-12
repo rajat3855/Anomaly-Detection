@@ -1,7 +1,7 @@
 # 🏭 Industrial Sensor Anomaly Detection System
 
 
-## 📌 Project Overview
+##  Project Overview
 
 This system ingests real-time sensor readings from industrial machinery and predicts whether a failure is imminent — enabling proactive maintenance before costly breakdowns occur.
 
@@ -9,7 +9,7 @@ It mirrors the kind of Industrial AI systems built at companies like ITHENA, whe
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -21,38 +21,13 @@ It mirrors the kind of Industrial AI systems built at companies like ITHENA, whe
 | Dashboard | Streamlit, Plotly |
 
 
-## 📊 Dataset
+##  Dataset
 
 **AI4I 2020 Predictive Maintenance Dataset** (UCI Machine Learning Repository)
 - 10,000 samples of industrial sensor readings
 - 5 sensor features: Air Temp, Process Temp, RPM, Torque, Tool Wear
 - 5 failure types: TWF, HDF, PWF, OSF, RNF
 - Class imbalance: ~3.4% failure rate (real-world distribution)
-
-
-## 🗂️ Project Structure
-
-```
-anomaly-detection/
-├── data/
-│   ├── raw/             ← Place dataset here (ai4i2020.csv)
-│   └── predictions.db   ← Auto-created SQLite DB
-├── scripts/
-│   ├── 01_eda.py        ← Exploratory Data Analysis
-│   └── 02_train.py      ← Model Training & Evaluation
-├── app/
-│   ├── main.py          ← FastAPI REST API
-│   ├── model.py         ← Inference logic
-│   └── database.py      ← SQLite logging
-├── dashboard/
-│   └── app.py           ← Streamlit dashboard
-├── models/              ← Saved after training
-│   ├── best_model.pkl
-│   ├── scaler.pkl
-│   └── metrics.json
-├── outputs/             ← Auto-created charts
-└── requirements.txt
-```
 
 ---
 
