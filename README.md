@@ -118,7 +118,7 @@ curl -X POST "http://localhost:8000/predict" \
 
 Best model selected by **F1 Score** — the right metric for imbalanced industrial datasets where missing a failure is more costly than a false alarm.
 
----
+
 
 ## 🔬 Feature Engineering
 
@@ -129,7 +129,7 @@ Beyond raw sensors, two derived features are computed:
 
 Both improve model discrimination as confirmed by feature importance analysis.
 
----
+
 
 ## 💡 Real-World Applicability
 
